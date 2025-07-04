@@ -25,9 +25,9 @@ HELLO WORLD<br>
 ---
 
 <!-- 강조 (기울임: *, 굵게: **, 굵게+기울임: ***) --->
-*기울임*은 *를 이용합니다<br>
-**굵게**는 *를 이용합니다<br>
-***기울이면서 굵게*** *를 이용합니다<br>
+*기울임* 은 *를 이용합니다<br>
+**굵게** 는 **를 이용합니다<br>
+***기울이면서 굵게*** 는 ***를 이용합니다<br>
 
 <!-- 목록 -->
 ## 순서 없는 목록('-', '*', '+')
@@ -57,10 +57,17 @@ HELLO WORLD<br>
 - [X] 체크 2(완료된 일 - 체크됨)
 - [X] 체크 3 
 
-## 링크(바로가기)
+## 링크([제목](경로)),<a href="경로" target="_blank"> 
 [NAVER](https://www.naver.com/)
 
 ## 이미지
+![제목](./TEST.jpg)
+
+***고양이가 세상을 구할 거야***
+---
+<img src="./TEST.jpg" width="600" height="400" alt="" />
+
+***왕크니까 왕귀엽다***
 
 ## 인용문
 > HELLO WORLD
@@ -73,5 +80,16 @@ HELLO WORLD<br>
 |내용2|HELLO WORLD|BBBBB
 |내용3|HELLO WORLD|CCCCC
 
+## 코드블럭(삼중백틱)
 
-## 코드블럭
+```html
+<!DOCTYPE html>
+<html>
+ <head>
+ </head>
+ <body>
+  <h1>HELLO WORLD</h1>
+ </body>
+</html>
+```
+
